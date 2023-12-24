@@ -1,0 +1,978 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #FFFFFF;
+  color: #112A46;
+}
+header{
+  background-color: #0077C2;
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  top: 0px;
+  padding-top: 1vh;
+  /* box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px 5px; */
+  border-bottom: 1px solid #0061ff;
+  z-index: 10;
+}
+header .navbar{
+  width: 90%;
+  height: 8vh;
+  margin: auto;
+}
+header .navbar div{
+  width: 10%;
+  height: 8vh;
+  margin: 0px auto 0px 50px;
+  float: left;
+}
+header .navbar div img{
+  width: 80px;
+  height: 8vh;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border: 3px solid #0061ff;
+
+}
+header .navbar nav {
+  width: 80%;
+  float: right;
+  text-align: end;
+  padding-top: 2vh;
+
+}
+header .navbar nav ul{
+  /* margin: 0px 0px 0px auto; */
+}
+header .navbar nav ul li{
+  display: inline;
+  margin: 0px 0px 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #101923;
+  cursor: pointer;
+}
+header .navbar nav ul li:hover{
+  color: #60efff;
+  border-bottom: 3px solid #60efff;
+}
+/* Start main */
+/* start section header */
+main .section-header{
+  position: relative;
+  min-height: 100vh;
+  background-image: url("../img/ddd.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  color: #0061ff;
+}
+main .section-header::after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #00000092;
+}
+main .section-header .contact{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
+  text-align: center;
+  z-index: 2;
+}
+main .section-header .contact h1{
+  font-size: 3rem;
+}
+main .section-header .contact h4{
+  font-size: 1.2rem;
+  margin: 15px 0px;
+}
+main .section-header .contact button{
+  padding: 20px 25px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: none;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  background-image: linear-gradient( 135deg, #00619a 10%, #00BFFF 100%);
+}
+main .section-header .contact button:hover{
+  background-image: none;
+  transition: all 1.5s;
+  background-color: #0061ff;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -ms-transition: all 1.5s;
+  -o-transition: all 1.5s;
+}
+/* End section header */
+/* start All section */
+main .header{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  width: 100%;
+}
+main .header::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  background-color: #0061ff;
+  bottom: -20px;
+  left: 47%;
+  border-radius:10px ;
+}
+main .cards{
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+main .card11{
+  /* float: left; */
+  position: absolute;
+  margin: 100px 0px 0px 200px;
+}
+main .card12{
+  /* float: left; */
+  position: absolute;
+  margin: 100px 0px 0px 600px;
+}
+main .card13{
+  /* float: left; */
+  position: absolute;
+  margin: 100px 0px 0px 1000px;
+}
+/* End All section */
+/* start section Welcome  */
+main .section-welcome .cards{
+  height: 300px;
+}
+main .section-welcome .card1{
+  text-align: center;
+  border: 1px solid #0061ff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  /* padding: 15px 10px; */
+  height: 9rem;
+}
+main .section-welcome .card1 .position{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+main .section-welcome .card1 .animation{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00BFFF;
+  z-index: -1;
+  top: -75px;
+  left: -160px;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+main .section-welcome .card1:hover .animation{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+main .section-welcome .card1 i{
+  color: #0077C2;
+  font-size: 1.8rem;
+}
+main .section-welcome .card1 h2{
+  font-size: 1.8rem;
+  margin: 10px 0px;
+}
+main .section-welcome .card1 p{
+  margin: 5px 0px;
+  font-size: 1.1rem;
+  
+}
+main .section-welcome .card1 a{
+  text-decoration: none;
+  color: #0077C2;
+}
+/* End section Welcome  */
+/* start section-works */
+main .section-works .card1{
+  width: 350px;
+  height: 20rem;
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+main .section-works .card1::after{
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  background-color: #20262d86;
+  top: -15px;
+  left: -15px;
+  display: none;
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+main .section-works .card1 img{
+  width: 100%;
+  height: 100%;
+}
+main .section-works .card1 .info{
+  display: none;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
+  color: #00C2F8;
+  z-index: 1;
+  width: 100%;
+  font-size: 1.3rem;
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+main .section-works .card1 .info p{
+  margin: 10px 0px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+main .section-works .card1 .info i{
+  background-color: #00619a;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+main .section-works .card1:hover::after ,
+main .section-works .card1:hover .info{
+  display: block;
+}
+/* End section-works */
+/* start section offer */
+main .section-offer .cards{
+  height: 180px;
+}
+main .section-offer .card1{
+  text-align: center;
+  border: 1px solid #0061ff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  /* padding: 15px 10px; */
+  height: 8rem;
+  width: 390px;
+}
+main .section-offer .card1 .position{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-align: start;
+}
+main .section-offer .card1 .position p{
+  width: 70%;
+  text-align: start;
+  margin-left: 55px;
+  margin-top: 5px;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+main .section-offer .card1 .position .line1{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+main .section-offer .card1 .position .line1 i{
+  float: left;
+  margin: 10px 0px 0px 0px;
+  color: #0061ff;
+  font-size: 1.7rem;
+  width: 10%;
+}
+main .section-offer .card1 .position .line1 h2{
+  float: right;
+  margin: 10px 0px 0px 0px;
+  /* color: #0061ff; */
+  font-size: 1.7rem;
+  text-align: start;
+  width: 90%;
+  padding-left: 30px;
+}
+main .section-offer .card1 .position .clearfix{
+  clear: both;
+}
+main .section-offer .card1 .animation{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00BFFF;
+  z-index: -1;
+  top: -75px;
+  left: -160px;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+main .section-offer .card1:hover .animation{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+/* End section offer */
+/* start section Choose */
+main .section-choose{
+  width: 100%;
+  min-height: 70vh;
+  margin-top: 200px;
+}
+main .section-choose .left{
+  width: 50%;
+  height: 100%;
+  float: left;
+  /* text-align: center; */
+  align-content: center;
+  padding: 50px;
+}
+main .section-choose .right{
+  width: 50%;
+  height: 100%;
+  float: right;
+  text-align: center;
+}
+main .section-choose .right .img-width{
+  width: 600px;
+  height: 30rem;
+}
+main .section-choose .right .img-width img{
+  width: 100%;
+  height: 100%;
+}
+main .section-choose .right .input{
+  background-color: #101923;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+main .section-choose .container{
+  width: 80%;
+}
+main .section-choose .container .header{
+  padding-top: 50px;
+  text-align: start;
+  font-size: 40px;
+  position: relative;
+  width: 100%;
+}
+main .section-choose .container .header::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  background-color: #0061ff;
+  bottom: -20px;
+  left: 0%;
+  border-radius:10px ;
+}
+main .section-choose .container .paragraph{
+  margin-top: 50px;
+  margin-bottom : 50px;
+  font-size: 1.2rem;
+}
+main .section-choose .container div{
+  width: 82%;
+  height: 3rem;
+}
+main .section-choose .container div i{
+  float: left;
+  font-size: 1.3rem;
+  color: #0061ff;
+}
+main .section-choose .container div p{
+  float: right;
+  font-size: 1.3rem;
+
+}
+main .section-choose .right .Active{
+  background-color: #0061ff;
+}
+/* End section Choose */
+/* start section awards */
+main .section-awards{
+  width: 100%;
+  height: 12rem;
+  margin-top: 100px;
+  text-align: center;
+  background-image: url("../img/eee.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+main .section-awards::after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #10192376;
+  z-index: 1;
+}
+main .section-awards .position{
+  width: 300px;
+  height: 10rem;
+  /* padding-top: 4rem; */
+  position: relative;
+  z-index: 2;
+  margin-left: 50px;
+  float: left;
+}
+main .section-awards .position .info{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  -webkit-transform: translate(-50% ,-50%);
+  -moz-transform: translate(-50% ,-50%);
+  -ms-transform: translate(-50% ,-50%);
+  -o-transform: translate(-50% ,-50%);
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+main .section-awards .position .info i{
+  color: #0061ff;
+  font-size: 3rem;
+}
+/* End section awards */
+/* start section pricing-table */
+main .pricing-table .cards{
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+main .pricing-table .card1{
+  overflow: hidden;
+}
+main .pricing-table .card1 .animation{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00BFFF;
+  z-index: -1;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  z-index: 3;
+}
+main .pricing-table .card1:hover .animation{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+main .pricing-table .card11{
+  /* float: left; */
+  position: absolute;
+  margin: 100px 0px 0px 200px;
+}
+main .pricing-table .card12{
+  /* float: left; */
+  position: absolute;
+  margin: 100px 0px 0px 600px;
+}
+main .pricing-table .card13{
+  /* float: left; */
+  position: absolute;
+  margin: 100px 0px 0px 1000px;
+}
+main .pricing-table .card1{
+  width: 360px;
+  height: 310px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 20px;
+}
+main .pricing-table .card1 .line1{
+  color: #000000c2;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 5;
+}
+main .pricing-table .card1 .line2{
+  border: 3px solid #274472;
+  padding: 15px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  display: inline-block;
+  margin: 5px 0px;
+  position: relative;
+  z-index: 5;
+}
+main .pricing-table .card1 .line2 h1{
+  font-size: 35px;
+  font-weight: bold;
+
+}
+main .pricing-table .card1 .line2 span{
+  font-size: 15px;
+  font-weight: bold;
+}
+main .pricing-table .card1 .line3 p,
+main .pricing-table .card1 .line4 p,
+main .pricing-table .card1 .line5 p{
+  color: #000000c2;
+  margin-top: 5px;
+  position: relative;
+  z-index: 5;
+}
+main .pricing-table .card1 .line6 input{
+  margin-top: 10px;
+  padding: 15px ;
+  font-size: 18px;
+  background-image: linear-gradient( 135deg, #00619a 10%, #00BFFF 100%);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  z-index: 5;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+main .pricing-table .card1 .line6 input:hover{
+  background-image: none;
+  transition: all 1.5s;
+  background-color: #0061ff;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -ms-transition: all 1.5s;
+  -o-transition: all 1.5s;
+}
+/* End section pricing-table */
+/* start section info  */
+main .section-info{
+  width: 100%;
+  height: 15rem;
+  margin-top: 100px;
+  text-align: center;
+  background-image: url("../img/eee.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+main .section-info::after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #00000089;
+}
+main .section-info .container{
+  display: block;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding: 50px 0px;
+  z-index: 5;
+}
+main .section-info .container .left{
+  width: 50%;
+  display: block;
+  float: left;
+  text-align: center;
+  z-index: 5;
+}
+main .section-info .container .top{
+  width: 100%;
+  height: fit-content;
+  z-index: 5;
+}
+main .section-info .container .top .div-img{
+  width: 100px;
+  height: 100px;
+  float: left;
+  z-index: 5;
+}
+main .section-info .container .top .div-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+main .section-info .container .top .div-info{
+  width: calc(100% - 150px);
+  font-size: 1.5rem;
+  text-align: start;
+  color: #f5f5f5;
+  z-index: 5;
+}
+main .section-info .container .clearfix{
+  clear: both;
+}
+main .section-info .container .bottom{
+  padding-top: 20px;
+  color: #FFFFFF;
+  width: 70%;
+  text-align: start;
+}
+main .section-info .container .right{
+  width: 50%;
+  display: block;
+  float: right;
+  text-align: center;
+  z-index: 5;
+}
+/* End section info  */
+/* start section team */
+/* start section team */
+main .section-team .cards{
+  height: 500px;
+}
+main .section-team .card1{
+  text-align: center;
+  border: 1px solid #0061ff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  /* padding: 15px 10px; */
+  height: 23rem;
+  width: 390px;
+  background-color: #0077C2;
+}
+
+main .section-team .card1 .position{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+main .section-team .card1 .position .div-img{
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  padding-top: 10px;
+  position: relative;
+  z-index: 5;
+}
+main .section-team .card1 .position .div-img .icon{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 2rem;
+  color: #0061ff;
+  margin-top: 10px;
+  background-color: #FFFFFF;
+}
+main .section-team .card1 .position .div-img .icon i{
+  display: none;
+  cursor: pointer;
+}
+main .section-team .card1 .position .div-img img{
+  width: 100%;
+  height: 100%;
+}
+main .section-team .card1 .animation{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00BFFF;
+  z-index: -1;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  z-index: 3;
+}
+main .section-team .card1:hover .animation{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+main .section-team .card1:hover .position .div-img .icon i{
+  display: block;
+}
+main .section-team .card1 h2{
+  font-size: 1.8rem;
+  margin: 10px 0px;
+  position: relative;
+  z-index: 5;
+}
+main .section-team .card1 p{
+  margin: 5px 0px;
+  font-size: 1.1rem;
+  position: relative;
+  z-index: 5;
+}
+/* End section team */
+/* start section News */
+main .section-news .cards{
+  height: 700px;
+}
+main .section-news .card1{
+  text-align: center;
+  border: 1px solid #0061ff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  /* padding: 15px 10px; */
+  /* height: 30rem; */
+  width: 390px;
+  background-color: #FFFFFF;
+}
+main .section-news .card1 .position{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+main .section-news .card1 .position .div-img{
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  padding-top: 10px;
+  position: relative;
+  z-index: 5;
+}
+main .section-news .card1 .position .div-img .icon{
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  font-size: 1.1rem;
+  color: #0061ff;
+  margin-top: 5px;
+  width: 100%;
+}
+main .section-news .card1 .position .div-img .icon i{
+  cursor: pointer;
+}
+main .section-news .card1 .position .div-img img{
+  width: 100%;
+  height: 100%;
+}
+main .section-news .card1 .animation{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00BFFF;
+  z-index: -1;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  z-index: 3;
+}
+main .section-news .card1:hover .animation{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+main .section-news .card1 h2{
+  font-size: 1.8rem;
+  margin: 30px 0px;
+  position: relative;
+  z-index: 5;
+}
+main .section-news .card1 p{
+  margin: 5px 0px;
+  font-size: 1.1rem;
+  position: relative;
+  z-index: 5;
+}
+main .section-news .card1 a{
+  margin: 5px 0px;
+  font-size: 1.1rem;
+  position: relative;
+  z-index: 5;
+  text-decoration: none;
+  color: #0061ff;
+}
+/* End section News */
+/* End main */
+/* start footer  */
+footer{
+  width: 100%;
+  height: 15rem;
+  text-align: center;
+  background-color: #0077C2;
+  padding: 10px 0px;
+}
+footer .div-img{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+footer .div-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+footer i{
+  font-size: 1.5rem;
+  margin: 10px 0px;
+  font-weight: bold;
+  color: #FFFFFF;
+  cursor: pointer;
+  background-color: #0061ff;
+  padding: 5px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+/* End footer  */
